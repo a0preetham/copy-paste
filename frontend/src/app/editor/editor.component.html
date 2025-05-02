@@ -1,0 +1,13 @@
+<div class="container">
+  <mat-form-field appearance="outline" class="editor">
+    <mat-label>Text to copy</mat-label>
+    <textarea
+      autoGrow
+      matInput
+      placeholder="Start typing to copy text..."
+      [formControl]="content"
+      (input)="onChange($event)"
+    ></textarea>
+  </mat-form-field>
+  <app-qr-code [url]="url"></app-qr-code>
+</div>
