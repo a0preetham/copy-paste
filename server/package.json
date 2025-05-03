@@ -3,7 +3,7 @@
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {
-		"deploy": "cd ../frontend && yarn build && cd ../server && wrangler deploy",
+		"deploy": "cd ../frontend && yarn install && yarn build && cd ../server && wrangler deploy",
 		"dev": "wrangler dev --ip 0.0.0.0",
 		"start": "wrangler dev",
 		"cf-typegen": "wrangler types",
