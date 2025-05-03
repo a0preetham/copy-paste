@@ -1,5 +1,7 @@
 
 .dev.vars
+.yarn
+.yarnrc.yml
 
 # Logs
 
