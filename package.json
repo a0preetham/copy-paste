@@ -3,7 +3,7 @@
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {
-		"deploy": "cd packages/frontend && yarn install && yarn build && cd ../.. && wrangler deploy",
+		"deploy": "cd packages/frontend && npm ci && npm run build && cd ../.. && wrangler deploy",
 		"dev": "wrangler dev --ip 0.0.0.0",
 		"start": "wrangler dev",
 		"cf-typegen": "wrangler types",
@@ -19,9 +19,5 @@
 		"jose": "^6.0.10",
 		"nanoid": "^5.1.5",
 		"tinybase": "^6.0.4"
-	},
-	"packageManager": "yarn@4.9.1",
-	"workspaces": [
-		"packages/*"
-	]
+	}
 }
