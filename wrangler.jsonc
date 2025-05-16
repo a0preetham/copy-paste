@@ -63,7 +63,7 @@
 	 * https://developers.cloudflare.com/workers/wrangler/configuration/#service-bindings
 	 */
 	// "services": [{ "binding": "MY_SERVICE", "service": "my-service" }]
-	routes = [
+	routes : [
 		{
       			"pattern": "copy.preetham.co",
       			"custom_domain": true
