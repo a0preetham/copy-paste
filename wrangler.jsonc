@@ -68,7 +68,7 @@
     		{
       			"pattern": "copy.preetham.co",
       			"custom_domain": true
-    		}
+    		},
     		{
       			"pattern": "paste.preetham.co",
       			"custom_domain": true
